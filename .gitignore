@@ -9,4 +9,47 @@
 # Built Visual Studio Code Extensions
 *.vsix
 
-!._cache
+# Системные файлы кэша
+*.cache
+*.tmp
+*.bak
+
+# Кэши IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Кэши сборки
+dist/
+build/
+out/
+
+# Кэши зависимостей
+node_modules/
+venv/
+.venv/
+
+# Специфические кэши
+.cache/
+__pycache__/
+.rvm/
+.meteor/local/
+
+# Временные директории
+tmp/
+temp/
+
+# Python cache
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+.Python
+env/
+venv/
+pythonenv/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
